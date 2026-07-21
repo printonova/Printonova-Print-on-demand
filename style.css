@@ -879,9 +879,11 @@ nav a{
 @media (max-width:768px){
 
 .hero{
-    height:500px;
-    background:url("images/hero-mobile.jpg") center top no-repeat;
-    background-size:contain;
+    width:100%;
+    aspect-ratio: 9 / 16;
+    height:auto;
+    background:url("images/hero-mobile.jpg") top center no-repeat;
+    background-size:100% auto;
     background-color:#050505;
 }
 
