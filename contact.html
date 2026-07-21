@@ -138,6 +138,14 @@ Browse Products
 
 </section>
 
+<script>
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("success") === "true") {
+    document.getElementById("success-message").style.display = "block";
+}
+</script>
+
 </body>
 
 </html>
