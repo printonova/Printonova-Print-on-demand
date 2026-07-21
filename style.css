@@ -868,9 +868,11 @@ nav a{
 
 .hero{
     width:100%;
-    height:800px;
+    height:100vh;
+    min-height:650px;
     background:url("images/hero-desktop.jpg") center center no-repeat;
-    background-size:cover;
+    background-size:contain;
+    background-color:#050505;
 }
 
 /* Mobile */
