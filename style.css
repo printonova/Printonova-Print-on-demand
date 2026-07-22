@@ -219,21 +219,16 @@ section{
 =====================================================*/
 
 .hero{
-
     width:100%;
-
-    height:100vh;
-
-    min-height:650px;
-
-    padding:0 !important;
+    aspect-ratio:16/9;
+    height:auto;
 
     background:url("images/hero-desktop.jpg") center center no-repeat;
-
-    background-size:cover;
-
+    background-size:contain;
     background-color:#050505;
 
+    padding:0;
+    margin:0;
 }
 
 /* =====================================================
@@ -243,19 +238,15 @@ section{
 @media(max-width:768px){
 
 .hero{
-
-    width:100%;
-
-    height:500px;
-
-    padding:0 !important;
+    aspect-ratio:9/16;
+    height:auto;
 
     background:url("images/hero-mobile.jpg") top center no-repeat;
-
-    background-size:cover;
-
+    background-size:contain;
     background-color:#050505;
 
+    padding:0;
+    margin:0;
 }
 
 }
@@ -263,7 +254,6 @@ section{
 .hero + .features{
     padding-top:40px;
 }
-
 /* =====================================================
    MOBILE HEADER
 =====================================================*/
