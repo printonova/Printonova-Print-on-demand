@@ -1306,46 +1306,6 @@ to{
    CONTACT • POLICY • HERO • RESPONSIVE
 =====================================================*/
 
-/* ==========================
-   HERO
-========================== */
-
-.hero{
-    width:100%;
-    height:auto;
-    aspect-ratio:16/9;
-    background:url("images/hero-desktop.jpg") center center no-repeat;
-    background-size:cover;
-    background-color:#050505;
-    padding:0;
-    margin:0;
-}
-
-@media(max-width:768px){
-
-.hero{
-
-    aspect-ratio:9/16;
-
-    background:url("images/hero-mobile.jpg") center top no-repeat;
-
-    background-size:cover;
-
-    padding:0;
-
-    margin:0;
-
-}
-
-}
-
-/* Remove unwanted gaps */
-
-.hero + section{
-
-    margin-top:0;
-
-}
 
 .features{
 
