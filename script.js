@@ -158,3 +158,89 @@ function filterProducts(category, button){
     searchProducts();
 
 }
+
+// Open product from Home Page link
+
+window.addEventListener("DOMContentLoaded", () => {
+
+    const params = new URLSearchParams(window.location.search);
+    const product = params.get("product");
+
+    if(!product) return;
+
+    switch(product){
+
+        case "personalized-mug":
+            openProduct(
+                "Personalized Mug",
+                "images/mug-white.jpg",
+                "Custom printed ceramic mugs for gifts and everyday use.",
+                "White",
+                "Standard",
+                "Ceramic",
+                "https://wa.me/919123456789?text=I%20want%20Personalized%20Mug"
+            );
+            break;
+
+        case "magic-mug":
+            openProduct(
+                "Magic Mug",
+                "images/magic-mug.jpg",
+                "Heat-sensitive mug that reveals your photo.",
+                "Black",
+                "Standard",
+                "Ceramic",
+                "https://wa.me/919123456789?text=I%20want%20Magic%20Mug"
+            );
+            break;
+
+        case "sarina-polyester-tshirt":
+            openProduct(
+                "Sarina Polyester T-Shirt",
+                "images/sarina-white.jpg",
+                "Premium polyester t-shirt available in multiple colors.",
+                "White, Black, Orange, Light Blue",
+                "Regular",
+                "Polyester",
+                "https://wa.me/919123456789?text=I%20want%20Sarina%20Polyester%20T-Shirt"
+            );
+            break;
+
+        case "black-acid-wash":
+            openProduct(
+                "Black Acid Wash T-Shirt",
+                "images/pollycotton_black_acidwash_180gsm_oversized_fit.jpg",
+                "180 GSM oversized acid wash t-shirt.",
+                "Black",
+                "Oversized",
+                "Polycotton",
+                "https://wa.me/919123456789?text=I%20want%20Black%20Acid%20Wash%20T-Shirt"
+            );
+            break;
+
+        case "hoodie":
+            openProduct(
+                "Polycotton Fleece Hoodie",
+                "images/pollycotton_fleece_350gsm_black_hoodie.jpg",
+                "350 GSM fleece hoodie.",
+                "Black",
+                "Regular",
+                "Polycotton Fleece",
+                "https://wa.me/919123456789?text=I%20want%20Hoodie"
+            );
+            break;
+
+        case "dry-fit-polo":
+            openProduct(
+                "Polyester Dry Fit Polo",
+                "images/polyster_dryfit_180gsm_polo_white.jpg",
+                "180 GSM dry fit polo.",
+                "White",
+                "Regular",
+                "Polyester",
+                "https://wa.me/919123456789?text=I%20want%20Dry%20Fit%20Polo"
+            );
+            break;
+    }
+
+});
