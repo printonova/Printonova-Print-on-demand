@@ -178,7 +178,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "White",
                 "Standard",
                 "Ceramic",
-                "https://wa.me/919123456789?text=I%20want%20Personalized%20Mug"
+                "https://wa.me/919088301108?text=I%20want%20Personalized%20Mug"
             );
             break;
 
@@ -190,7 +190,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "Black",
                 "Standard",
                 "Ceramic",
-                "https://wa.me/919123456789?text=I%20want%20Magic%20Mug"
+                "https://wa.me/919088301108?text=I%20want%20Magic%20Mug"
             );
             break;
 
@@ -202,7 +202,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "White, Black, Orange, Light Blue",
                 "Regular",
                 "Polyester",
-                "https://wa.me/919123456789?text=I%20want%20Sarina%20Polyester%20T-Shirt"
+                "https://wa.me/919088301108?text=I%20want%20Sarina%20Polyester%20T-Shirt"
             );
             break;
 
@@ -214,7 +214,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "Black",
                 "Oversized",
                 "Polycotton",
-                "https://wa.me/919123456789?text=I%20want%20Black%20Acid%20Wash%20T-Shirt"
+                "https://wa.me/919088301108?text=I%20want%20Black%20Acid%20Wash%20T-Shirt"
             );
             break;
 
@@ -226,7 +226,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "Black",
                 "Regular",
                 "Polycotton Fleece",
-                "https://wa.me/919123456789?text=I%20want%20Hoodie"
+                "https://wa.me/919088301108?text=I%20want%20Hoodie"
             );
             break;
 
@@ -238,7 +238,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 "White",
                 "Regular",
                 "Polyester",
-                "https://wa.me/919123456789?text=I%20want%20Dry%20Fit%20Polo"
+                "https://wa.me/919088301108?text=I%20want%20Dry%20Fit%20Polo"
             );
             break;
     }
